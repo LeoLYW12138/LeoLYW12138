@@ -40,8 +40,8 @@ me.sayHi()
 
 ## Contacts 📱
 
-[![](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:leo62227@gmail.com)
-[![](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/LeoLYW12138)
+[![](https://img.shields.io/badge/Gmail-D14836?style=flat&logo=gmail&logoColor=white)](mailto:leo62227@gmail.com)
+[![](https://img.shields.io/badge/GitHub-100000?style=flat&logo=github&logoColor=white)](https://github.com/LeoLYW12138)
 
 <!--
 **LeoLYW12138/LeoLYW12138** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
