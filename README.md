@@ -38,6 +38,7 @@ me.sayHi()
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
 ![](https://img.shields.io/badge/Vue.js-35495E?flat&logo=vue.js&logoColor=4FC08D)
+![](https://img.shields.io/badge/React.js-222222?flat&logo=react&logoColor=21DAFB)
 
 ## Contacts 📱
 
