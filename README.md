@@ -4,14 +4,15 @@ Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
 
 ```js
 import { python, c, cpp, js, bash } from 'my-coding-language'
-import { Software } from 'HKUST-Robotics-Team'
+import { SoftwareMember } from 'HKUST-Robotics-Team'
+import { SoftwareEngineer } from 'R2C2-Limited'
 
 const me = {
       name: "Leo",
-      role: ["HKUST student", ...Software],
-      pronuons: ["He", "his", 👨🏻],
+      role: ["HKUST student", ...SoftwareMember, ...SfotwareEngineer],
+      pronuons: ["He", "his", "👨"🏻],
       spokenLang: ["zh_HK", "zh_TW", "en_US", "ja_JP"],
-      sayHi() {console.log(`Hi! My name is ${this.name}`},
+      sayHi: () => {console.log(`Hi! My name is ${this.name}`)},
 }
       
 me.sayHi()
@@ -23,7 +24,7 @@ me.sayHi()
 - 👨🏻 Personal website with blogs using [*Nuxt.js*](https://github.com/nuxt) & [*WindiCSS*](https://github.com/windicss)
 
 ## Plans
-- ✈ Remake popular shell commands `rm`, `touch` in PowerShell
+- ⚙️ Learn more backend tools - Express, FastAPI, Type ORM
 
 
 ## Technologies & Tools 🔧
