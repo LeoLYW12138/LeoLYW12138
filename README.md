@@ -1,18 +1,32 @@
 ### Hi there, I am Leo 👋
 
+Software Developer at Sales Axis Limited <br>
 Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
 
-```js
+```ts
 import { python, c, cpp, js, bash } from 'my-coding-language'
-import { SoftwareMember } from 'HKUST-Robotics-Team'
-import { SoftwareEngineer } from 'R2C2-Limited'
+import {
+  HKUST as ComputerEngineeringStudent
+  HKUST_Robotics_Team as SoftwareMember,
+  R2C2_Limited as SoftwareEngineer,
+  Sales_Axis_Limited as SoftwareDeveloper
+} from 'company-job'
+import type { JobTitle } from 'company-job'
 
-const me = {
-      name: "Leo",
-      role: ["HKUST student", ...SoftwareMember, ...SfotwareEngineer],
-      pronuons: ["He", "his", "👨"🏻],
-      spokenLang: ["zh_HK", "zh_TW", "en_US", "ja_JP"],
-      sayHi: () => {console.log(`Hi! My name is ${this.name}`)},
+type Person = {
+  name: string,
+  pronouns: JobTitle[],
+  roles: string[],
+  spokenLangs: string[],
+  sayHi: () => void
+}
+
+const me: Person = {
+      name: "Leo Wong",
+      pronuons: ["He", "his", "👨"],
+      roles: [ComputerEngineeringStudent, SoftwareMember , SoftwareEngineer, SoftwareDeveloper],
+      spokenLangs: ["zh_HK", "zh_TW", "en_US", "ja_JP"],
+      sayHi: () => { console.log(`Hi! My name is ${this.name}`) },
 }
       
 me.sayHi()
@@ -20,11 +34,14 @@ me.sayHi()
 ```
 
 ## Working on
-- 🤖 Image processing, position estimation using [*OpenCV*](https://github.com/opencv)
+- Github User explorer using [*React.js*](https://github.com/facebook/react) & [*Github Octokit*](https://github.com/octokit/octokit.js)
 - 👨🏻 Personal website with blogs using [*Nuxt.js*](https://github.com/nuxt) & [*WindiCSS*](https://github.com/windicss)
 
+## Learning
+Redux, Express, Firebase, AWS AppSync
+
 ## Plans
-- ⚙️ Learn more backend tools - Express, FastAPI, Type ORM
+- ⚙️ Learn more backend tools - Type ORM, Docker, Flutter
 
 
 ## Technologies & Tools 🔧
@@ -35,11 +52,15 @@ me.sayHi()
 ![](https://img.shields.io/badge/Vim-C6C6C6?style=flat&logo=vim&logoColor=019331)
 ![](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
 ![](https://img.shields.io/badge/JavaScript-323330?style=flat&logo=javascript&logoColor=F7DF1E)
+![](https://img.shields.io/badge/TypeScript-ffffff?flat&logo=typescript&logoColor=3178C6)
 ![](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
 ![](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=c%2B%2B&logoColor=white)
 ![](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
 ![](https://img.shields.io/badge/Vue.js-35495E?flat&logo=vue.js&logoColor=4FC08D)
 ![](https://img.shields.io/badge/React.js-222222?flat&logo=react&logoColor=21DAFB)
+![](https://img.shields.io/badge/Firebase-0393D9?flat&logo=firebase)
+![](https://img.shields.io/badge/GraphQL-ffffff?flat&logo=firebase&logoColor=d932a2)
+
 
 ## Contacts 📱
 
