@@ -9,7 +9,7 @@ import {
   HKUST as ComputerEngineeringStudent
   HKUST_Robotics_Team as SoftwareMember,
   R2C2_Limited as SoftwareEngineer,
-  Sales_Axis_Limited as SoftwareDeveloper
+  Centry_Lab_Innovation as SoftwareDeveloper
 } from 'company-job'
 import type { JobTitle } from 'company-job'
 
