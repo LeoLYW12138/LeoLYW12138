@@ -1,6 +1,6 @@
 ### Hi there, I am Leo 👋
 
-Software Developer at Sales Axis Limited <br>
+Software Developer at Centry Lab Innovation<br>
 Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
 
 ```ts
