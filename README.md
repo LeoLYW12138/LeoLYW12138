@@ -5,17 +5,20 @@ Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
 
 ```ts
 import { python, c, cpp, js, bash } from 'my-coding-language'
+import { JobTitle, Role,
+         ComputerEngineeringStudent, SoftwareMember, SoftwareEngineer, SoftwareDeveloper, ITConsultant 
+       } from 'company-job'
 import {
   HKUST as ComputerEngineeringStudent
   HKUST_Robotics_Team as SoftwareMember,
   R2C2_Limited as SoftwareEngineer,
   Centry_Lab_Innovation as SoftwareDeveloper
 } from 'company-job'
-import type { JobTitle } from 'company-job'
+
 
 type Person = {
   name: string,
-  pronouns: JobTitle[],
+  pronouns: string[],
   roles: string[],
   spokenLangs: string[],
   sayHi: () => void
@@ -24,7 +27,7 @@ type Person = {
 const me: Person = {
       name: "Leo Wong",
       pronuons: ["He", "his", "👨"],
-      roles: [ComputerEngineeringStudent, SoftwareMember , SoftwareEngineer, SoftwareDeveloper],
+      roles: ["Computer Engineering Student", "Software Member" , "Software Engineer", "IT Consultant"],
       spokenLangs: ["zh_HK", "zh_TW", "en_US", "ja_JP"],
       sayHi: () => { console.log(`Hi! My name is ${this.name}`) },
 }
@@ -34,14 +37,15 @@ me.sayHi()
 ```
 
 ## Working on
-- Github User explorer using [*React.js*](https://github.com/facebook/react) & [*Github Octokit*](https://github.com/octokit/octokit.js)
+- 🎲 Liars' Dice online(大話骰) using [*React.js*](https://github.com/facebook/react) & [*Socket IO*](https://socket.io/)
 - 👨🏻 Personal website with blogs using [*Nuxt.js*](https://github.com/nuxt) & [*WindiCSS*](https://github.com/windicss)
 
 ## Learning
-Redux, Express, Firebase, AWS AppSync
+SocketIO, Astro, Sanity
 
 ## Plans
-- ⚙️ Learn more backend tools - Type ORM, Docker, Flutter
+- ⚙️ Learn more backend tools - Type ORM, Docker
+- 🧠 Learn ML and AI - Keras, PyTorch
 
 
 ## Technologies & Tools 🔧
@@ -60,6 +64,7 @@ Redux, Express, Firebase, AWS AppSync
 ![](https://img.shields.io/badge/React.js-222222?flat&logo=react&logoColor=21DAFB)
 ![](https://img.shields.io/badge/Firebase-0393D9?flat&logo=firebase)
 ![](https://img.shields.io/badge/GraphQL-ffffff?flat&logo=firebase&logoColor=d932a2)
+![](https://img.shields.io/badge/Socket.io-ffffff?flat&logo=socketdotio&logoColor=000000)
 
 
 ## Contacts 📱
