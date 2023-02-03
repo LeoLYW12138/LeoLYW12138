@@ -1,6 +1,6 @@
 ### Hi there, I am Leo 👋
 
-Software Developer at Centry Lab Innovation<br>
+Software Developer at Century Lab Innovation<br>
 Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
 
 ```ts
@@ -12,7 +12,7 @@ import {
   HKUST as ComputerEngineeringStudent
   HKUST_Robotics_Team as SoftwareMember,
   R2C2_Limited as SoftwareEngineer,
-  Centry_Lab_Innovation as SoftwareDeveloper
+  Century_Lab_Innovation as SoftwareDeveloper
 } from 'company-job'
 
 
