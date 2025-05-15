@@ -1,52 +1,44 @@
 ### Hi there, I am Leo 👋
 
-Software Developer at Century Lab Innovation<br>
-Software member at [*HKUST Robotics Team*](https://github.com/HKUST-Robocon)
-
-```ts
-import { python, c, cpp, js, bash } from 'my-coding-language'
-import { JobTitle, Role,
-         ComputerEngineeringStudent, SoftwareMember, SoftwareEngineer, SoftwareDeveloper, ITConsultant 
-       } from 'company-job'
-import {
-  HKUST as ComputerEngineeringStudent
-  HKUST_Robotics_Team as SoftwareMember,
-  R2C2_Limited as SoftwareEngineer,
-  Century_Lab_Innovation as SoftwareDeveloper
-} from 'company-job'
+Applied AI Postgraduate Student at George Brown College<br>
+Graduated from Hong Kong University of Science and Technology
 
 
-type Person = {
-  name: string,
-  pronouns: string[],
-  roles: string[],
-  spokenLangs: string[],
-  sayHi: () => void
-}
+```python
+from dataclasses import dataclass
+import coding_language as cl
 
-const me: Person = {
-      name: "Leo Wong",
-      pronuons: ["He", "his", "👨"],
-      roles: ["Computer Engineering Student", "Software Member" , "Software Engineer", "IT Consultant"],
-      spokenLangs: ["zh_HK", "zh_TW", "en_US", "ja_JP"],
-      sayHi: () => { console.log(`Hi! My name is ${this.name}`) },
-}
-      
-me.sayHi()
-      
+@dataclass
+class Person:
+  name: str
+  pronouns: tuple[str]
+  roles: list[str]
+  spoken_langs: list[str]
+  coding_langs: list[str]
+
+  def say_hi(self):
+    print(f"HI! My name is {self.name} and I am now a {self.roles[-1]}")
+
+me = Person(
+         name="Leo Wong",
+         pronouns=("He", "him", "his"),
+         roles=["Software Developer", "IT Consultant", "Computer Engineering Student",
+                "Fullstack Software Engineer", "Applied AI Postgraduate Student"],
+         spoken_langs=["yue_HK", "zh_TW", "en_US", "ja_JP"],
+         coding_langs=[cl.Python, cl.R, cl.C, cl.CPP, cl.Java, cl.Javascript, cl.Typescript]
+     )
+
+me.say_hi()
+
 ```
 
 ## Working on
-- 🎲 Liars' Dice online(大話骰) using [*React.js*](https://github.com/facebook/react) & [*Socket IO*](https://socket.io/)
-- 👨🏻 Personal website with blogs using [*Nuxt.js*](https://github.com/nuxt) & [*WindiCSS*](https://github.com/windicss)
-
+- LLM Deep Learning with [Keras](https://github.com/keras-team/keras) & [PyTorch](https://github.com/pytorch/pytorch)
+- Statistical analysis with [PowerBI](https://learn.microsoft.com/en-us/power-bi/) & [Tableau](https://community.tableau.com/s/)
+  
 ## Learning
-SocketIO, Astro, Sanity
-
-## Plans
-- ⚙️ Learn more backend tools - Type ORM, Docker
-- 🧠 Learn ML and AI - Keras, PyTorch
-
+- Deep Learning on Tabular, Textual, and Graphical data
+- ML model hosting on Cloud Platforms
 
 ## Technologies & Tools 🔧
 
@@ -62,9 +54,16 @@ SocketIO, Astro, Sanity
 ![](https://img.shields.io/badge/Shell_Script-121011?style=flat&logo=gnu-bash&logoColor=white)
 ![](https://img.shields.io/badge/Vue.js-35495E?flat&logo=vue.js&logoColor=4FC08D)
 ![](https://img.shields.io/badge/React.js-222222?flat&logo=react&logoColor=21DAFB)
+![](https://img.shields.io/badge/SQL-4479A1?flat&logo=mysql&logoColor=ffffff)
 ![](https://img.shields.io/badge/Firebase-0393D9?flat&logo=firebase)
 ![](https://img.shields.io/badge/GraphQL-ffffff?flat&logo=firebase&logoColor=d932a2)
 ![](https://img.shields.io/badge/Socket.io-ffffff?flat&logo=socketdotio&logoColor=000000)
+![](https://img.shields.io/badge/scikit_learn-ffffff?flat&logo=scikitlearn)
+![](https://img.shields.io/badge/Keras-ffffff?flat&logo=keras&logoColor=D00000)
+
+<!--
+![](https://img.shields.io/badge/Pytorch-ffffff?flat&logo=pytorch&logoColor=EE4C2C)
+-->
 
 
 ## Contacts 📱
